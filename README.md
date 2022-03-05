@@ -4,6 +4,7 @@ Create a task management application while reading reference.
 ## :rocket: Getting Started
 docker required
 ```bash
+ $ docker compose run web bundle install
  $ docker compose build
  $ docker compose up -d
 ```
