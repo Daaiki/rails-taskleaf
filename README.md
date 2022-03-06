@@ -1,9 +1,11 @@
 # Rails Taskleaf
 Create a task management application while reading reference.
 
-## :rocket: Getting Started
-docker required
+## :hammer_and_wrench: Setup
+After executing the following command, you can check the program under development by accessing http://localhost:3000.  
+
 ```bash
+ # Docker required.
  $ docker compose run web bundle install
  $ docker compose build
  $ docker compose up -d
